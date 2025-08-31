@@ -1,0 +1,117 @@
+html {
+    color: #f3f3f3;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+h1{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 40px;
+    background-color: #333333;
+    height: 102px;
+    width: auto;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    margin: 6px;
+}
+label {
+    
+    display: block;
+    text-indent: 10px;
+    color: black;
+    font-family:Arial, sans-serif;
+}
+.filters {
+
+    display: flex;
+    align-items: center;
+    margin: 32px;
+}
+input {
+    size: 49.6px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+button {
+    
+    background-color: #333333;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 32px;
+    height: 38.4px;
+    color: #FFFFFF;
+}
+#back-button {
+    background-color: #333333;
+    border-radius: 5px;
+    margin: 10px;  
+    height: 38.4px;
+    width: 100px;
+    color: #FFFFFF;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 10px;
+}
+main.details {
+    align-self: center;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.big-card {
+    margin: 32px;
+    text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.big-card img {
+    height: 250px;
+    width: 500px;
+}
+.big-card div span {
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.country-card {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    padding: 28.8px;
+    background-color: #E0E0E0;
+}
+
+.country-card img {
+    height: 102px;
+    width: 200px;
+}
+.country-card h3 {
+    margin: 4.32px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.no-results-message {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}

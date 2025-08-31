@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <title>Country Explorer</title>
+    <link rel='stylesheet' href="style.css">
+</head>
+
+<body id="top-of-page"> <!--This is section is for the top of the web app-->
+    <header>
+        <h1>
+            <img src="assets/world.png" alt="World Logo">
+            Country Explorer
+        </h1>
+    </header>
+    <!--This is for the main content where user will interact with the most-->
+    <section class="filters"><!--This the code for our filtering system-->
+        <label for="search-input">Search by Country Name:</label>
+         <input type="text" id="search-input" placeholder="Enter Country Name:">
+        
+         <label for="regionSelector">Select a Region:</label>
+         <select name="regions" id="regionSelector"></select>
+        
+         <label for="population-input">Search by Population:</label>
+         <input type="number" id="population-input" placeholder="0">
+    </section>
+    
+    <main class="grid" id="country-cards-container"></main>
+        
+    
+    <!--This is the show more button to allow more cards to be displayed.-->
+    <section class="show-more">
+        <button id="show-more-btn">Show More</button>
+    </section>
+    
+    
+
+    <script src="script.js"></script>
+</body> 
+</html>
